@@ -1,5 +1,5 @@
 {
-  "name": "straightforward-atm",
+  "name": "command_line_interface_ts_simple_atm",
   "version": "1.0.1",
   "main": "index.js",
   "type": "module",
@@ -8,13 +8,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Areesha Kamran",
   "license": "ISC",
-  "description": "",
+  "description": "Welcome to CLI Cash, a streamlined and efficient ATM interface designed for the command line. Our CLI-based ATM application brings the convenience of traditional banking to your terminal, allowing you to perform essential financial transactions with ease and security.",
   "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
     "inquirer": "^9.2.22"
   },
   "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
     "@types/inquirer": "^9.0.7"
   }
 }
